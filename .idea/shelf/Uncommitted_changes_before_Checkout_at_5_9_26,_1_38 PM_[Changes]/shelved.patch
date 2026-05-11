@@ -1,0 +1,33 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"Black\">\n    <option name=\"sdkName\" value=\"Python 3.14 (Team-Megaforce-Ai-project) (2)\" />\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 385cea717b92735c95be32ab3128fdffab59ae64)
++++ b/.idea/misc.xml	(date 1778087659388)
+@@ -3,4 +3,5 @@
+   <component name="Black">
+     <option name="sdkName" value="Python 3.14 (Team-Megaforce-Ai-project) (2)" />
+   </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (.venv)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
+Index: .idea/Team-Megaforce-Ai-project.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"PYTHON_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\">\n    <content url=\"file://$MODULE_DIR$\">\n      <excludeFolder url=\"file://$MODULE_DIR$/.venv\" />\n    </content>\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.14 (Team-Megaforce-Ai-project) (2)\" jdkType=\"Python SDK\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n  </component>\n</module>
+===================================================================
+diff --git a/.idea/Team-Megaforce-Ai-project.iml b/.idea/Team-Megaforce-Ai-project.iml
+--- a/.idea/Team-Megaforce-Ai-project.iml	(revision 385cea717b92735c95be32ab3128fdffab59ae64)
++++ b/.idea/Team-Megaforce-Ai-project.iml	(date 1778087659388)
+@@ -4,7 +4,7 @@
+     <content url="file://$MODULE_DIR$">
+       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+     </content>
+-    <orderEntry type="jdk" jdkName="Python 3.14 (Team-Megaforce-Ai-project) (2)" jdkType="Python SDK" />
++    <orderEntry type="jdk" jdkName="Python 3.13 (.venv)" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
